@@ -39,7 +39,7 @@ const sponsorTiers = [
   {
     name: "Title Partner",
     range: "$5M–$15M",
-    copy: "Category-exclusive ownership of a national or global event campaign anchored from Sterling.",
+    copy: "Category-exclusive ownership of a national or global event campaign anchored from Stirling.",
     perks: ["Prime physical + digital placement", "Executive room access", "National affiliate integration"],
   },
   {
@@ -66,11 +66,11 @@ const calendar = [
   { label: "Q1", title: "NFL Playoffs + Championship Season", markets: "Las Vegas, Miami, Dallas, Atlanta", icon: Trophy },
   { label: "Q2", title: "Final Four, NBA Playoffs, Boxing", markets: "Vegas HQ + hotel affiliate nodes", icon: MonitorPlay },
   { label: "Q3", title: "F1, Soccer, Music + Cultural Campaigns", markets: "Global resort + MSA expansion", icon: Globe2 },
-  { label: "Q4", title: "NFL, Holiday Galas, Capital Closings", markets: "Sterling private deal-room calendar", icon: CalendarDays },
+  { label: "Q4", title: "NFL, Holiday Galas, Capital Closings", markets: "Stirling private deal-room calendar", icon: CalendarDays },
 ];
 
 const rooms = [
-  { name: "Sterling Control Room", use: "Parent production studio, sponsor command center, stream coordination", icon: RadioTower },
+  { name: "Stirling Control Room", use: "Parent production studio, sponsor command center, stream coordination", icon: RadioTower },
   { name: "Executive Deal Rooms", use: "Private negotiations, capital formation, enterprise contract closings", icon: DoorClosed },
   { name: "Sponsor Showcase Zones", use: "Physical product placement, device demos, experiential installations", icon: Sparkles },
   { name: "Affiliate Hotel Nodes", use: "Private hosted rooms connected through VIBE production and programming", icon: Hotel },
@@ -182,7 +182,7 @@ export default function SterlingClubSite() {
               <span className="text-[#8B6914] dark:text-[#C9A96E]">Monetize the ecosystem.</span>
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-600 dark:text-white/68 md:text-xl">
-              Sterling Club becomes the TPG / VIBE command center for sponsor-funded private viewing experiences, executive deal flow, hotel demand generation, and content-driven enterprise monetization.
+              Stirling Club becomes the TPG / VIBE command center for sponsor-funded private viewing experiences, executive deal flow, hotel demand generation, and content-driven enterprise monetization.
             </p>
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
               <button className="group rounded-2xl bg-[#C9A96E] px-7 py-4 font-black text-white shadow-2xl shadow-amber-950/20 transition hover:bg-[#b8954f]">
@@ -202,7 +202,7 @@ export default function SterlingClubSite() {
             <Card className="relative p-4">
               <div className="aspect-[4/5] overflow-hidden rounded-[1.7rem] border border-slate-200 dark:border-white/10 bg-slate-100 dark:bg-[radial-gradient(circle_at_30%_20%,rgba(201,169,110,.22),transparent_28%),linear-gradient(145deg,#111827,#030712_58%,#14120b)] p-5">
                 <div className="flex items-center justify-between">
-                  <Pill>Sterling HQ</Pill>
+                  <Pill>Stirling HQ</Pill>
                   <Pill>Live Campaign</Pill>
                 </div>
                 <div className="mt-14 rounded-3xl border border-slate-200 dark:border-white/10 bg-white dark:bg-black/35 p-5 backdrop-blur">
@@ -274,7 +274,7 @@ export default function SterlingClubSite() {
                 Own the room, the relationship, and the campaign surface area.
               </h2>
               <p className="mt-5 text-lg leading-8 text-slate-600 dark:text-white/60">
-                Sponsors participate up and down the entire value chain—Sterling physical spaces, affiliate venues, devices, creator content, invitations, product drops, and executive hospitality.
+                Sponsors participate up and down the entire value chain—Stirling physical spaces, affiliate venues, devices, creator content, invitations, product drops, and executive hospitality.
               </p>
               <div className="mt-8 grid gap-3">
                 {sponsorTiers.map((s, i) => (
@@ -421,7 +421,7 @@ export default function SterlingClubSite() {
                 Designed for private capital, not public crowds.
               </h2>
               <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-600 dark:text-white/60">
-                The Sterling Model protects exclusivity while creating measurable business value for sponsors, venues, municipalities, athletes, influencers, hotel partners, and enterprise clients.
+                The Stirling Model protects exclusivity while creating measurable business value for sponsors, venues, municipalities, athletes, influencers, hotel partners, and enterprise clients.
               </p>
             </motion.div>
             <div className="mt-12 grid gap-5 md:grid-cols-3">
@@ -450,7 +450,7 @@ export default function SterlingClubSite() {
               Enter the room.
             </h2>
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-600 dark:text-white/60">
-              Sterling is not a nightclub. It is the origin point for a sponsor-funded hospitality, media, and enterprise monetization infrastructure built around private access and measurable economic outcomes.
+              Stirling is not a nightclub. It is the origin point for a sponsor-funded hospitality, media, and enterprise monetization infrastructure built around private access and measurable economic outcomes.
             </p>
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
               <button className="rounded-2xl bg-[#C9A96E] px-8 py-4 font-black text-white transition hover:bg-[#b8954f]">
